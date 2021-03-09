@@ -1,0 +1,67 @@
+body{
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header{
+    height: 50px;
+    background-color: white;
+    border-bottom: white solid;
+    text-align: center;
+
+    padding: 10px;
+}
+h1{
+    margin: 15px;
+}
+
+
+li{
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    left: 500px;
+
+
+}
+
+
+form{
+    border: solid black;
+    width: 500px;
+    margin: 20px
+    
+    auto;
+    padding: 20px;
+}
+label{
+    width: 100px;
+
+}
+input{
+    width: 200px;
+
+}
+
+tr{
+  min-width:500px;
+  border: black solid;
+  text-align: center;
+}
+td{
+    width: 70px;
+    border: black solid;
+    text-align: center;
+
+
+
+
+}
+/* 
+tf{
+width: 500px;
+border: solid slateblue;
+
+} */
