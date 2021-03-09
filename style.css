@@ -2,6 +2,8 @@ body {
   background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 header {
@@ -76,11 +78,15 @@ select {
   position: relative;
   margin: 0 10px;
   top: 0px;
-  float: right;
+  left: 50%;
+  /* float: right; */
   width: 500px;
-  border: yellow solid;
   color: wheat;
   background-color: rgba(255, 255, 255, 0.274);
+}
+
+table{
+    /* float: right; */
 }
 
 tr {

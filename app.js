@@ -39,11 +39,12 @@ let storedDtat=localStorage.setItem('student',stringData);
 function getDataFromStorage(){
 let data=JSON.parse(localStorage.getItem('student'));
 
-for (let index = 0; index < studentArray.length; index++) {
-    let st=new Student(studentArray[index].studnetEmail);
+// for (let index = 0; index < studentArray.length; index++) {
+//     let st=new Student(studentArray[index].studnetEmail);
     
-}
-st.getStudentName(studentArray[index].studnetEmail);
+// }
+// st.getStudentName(studentArray[index].studnetEmail);
+// }
 }
 
 //get data form user 
@@ -170,7 +171,7 @@ table.appendChild(tablefooter);
 
 //render the table
  function render(){
-    getDataFromStorage();
+    // getDataFromStorage();
     addHeader();
 
 for (let index = 0; index < studentArray.length; index++) {
