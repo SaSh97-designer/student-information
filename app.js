@@ -17,7 +17,7 @@ this.tution=tution;
 this.StudentName;
 // this.StudentAge;
 
-this.getStudentName(studnetEmail);
+// this.getStudentName(studnetEmail);
 this.random();
 studentArray.push(this);
 TuitionArray.push(this.tution);
@@ -37,15 +37,13 @@ let storedDtat=localStorage.setItem('student',stringData);
 }
 
 function getDataFromStorage(){
-let data=localStorage.getItem('student');
-data=JSON.parse(data);
+let data=JSON.parse(localStorage.getItem('student'));
 
-
-console.log(data);
 for (let index = 0; index < studentArray.length; index++) {
-new Student(data[index].StudentEmail)    ;
+    let st=new Student(studentArray[index].studnetEmail);
+    
 }
-
+st.getStudentName(studentArray[index].studnetEmail);
 }
 
 //get data form user 

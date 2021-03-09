@@ -1,63 +1,98 @@
-body{
-    background-image:url(bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-header{
-    height: 50px;
-    background-color: white;
-    border-bottom: white solid;
-    text-align: center;
-
-    padding: 10px;
+header {
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.274);
+  border-bottom: white solid;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 10px;
 }
-h1{
-    margin: 15px;
-}
-
-
-li{
-    position: relative;
-    display: inline-block;
-    margin: 0 20px;
-    left: 500px;
-
-
+h1 {
+  margin: 15px;
 }
 
-
-form{
-    border: solid black;
-    width: 500px;
-    margin: 20px
-    
-    auto;
-    padding: 20px;
+ul {
+  position: absolute;
+  /* margin: 20px; */
+  /* border: solid black; */
+  right: 0;
+  top: 50%;
 }
-label{
-    width: 100px;
-
+a {
+  color: white;
 }
-input{
-    width: 200px;
-
+li {
+  /* position: relative; */
+  display: inline-block;
+  margin: 0 20px;
+  /* left: 500px; */
 }
 
-tr{
-  min-width:500px;
+#formArea {
+  width: 500px;
+}
+
+form {
+  border: solid black;
+  background-color: rgba(255, 255, 255, 0.274);
+  margin: 20px;
+  width: 100%;
+
+  /* auto; */
+  padding: 20px;
+}
+label {
+  display: inline-block;
+  min-width: 200px;
+  color: white;
+  font-weight: bold;
+  margin: 15px 0;
+}
+input {
+  display: inline-block;
+  min-width: 200px;
+  color: white;
+  font-weight: bold;
+  margin: 15px 0;
+}
+select {
+  display: inline-block;
+  min-width: 200px;
+  /* color: white; */
+  font-weight: bold;
+  margin: 15px 0;
+
+  width: 200px;
+  margin: 50px 20px;
+}
+
+#tableArea {
+  position: relative;
+  margin: 0 10px;
+  top: 0px;
+  float: right;
+  width: 500px;
+  border: yellow solid;
+  color: wheat;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+
+tr {
+  min-width: 500px;
   border: black solid;
   text-align: center;
 }
-td{
-    width: 70px;
-    border: black solid;
-    text-align: center;
-
-
-
-
+td {
+  padding: 10px;
+  width: 70px;
+  border: black solid;
+  text-align: center;
 }
 /* 
 tf{
